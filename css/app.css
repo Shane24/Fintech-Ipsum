@@ -1,0 +1,233 @@
+
+/* line 13, ../sass/app.css.scss */
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica', arial, serif;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5492cf+0,453586+100 */
+  background: #5492cf; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #5492cf 0%, #453586 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  #5492cf 0%,#453586 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  #5492cf 0%,#453586 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+/* line 21, ../sass/app.css.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 23, ../sass/app.css.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 25, ../sass/app.css.scss */
+#wrap {
+  min-height: 100%;
+
+}
+
+/* line 27, ../sass/app.css.scss */
+#main {
+  overflow: auto;
+  padding-bottom: 111px;
+  /* must be same height as the footer */
+  margin: 0 auto;
+  width: 90%;
+}
+
+/*Opera Fix*/
+/* line 35, ../sass/app.css.scss */
+body:before {
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;
+}
+
+/* line 44, ../sass/app.css.scss */
+#footer {
+  position: relative;
+  margin-top: -111px;
+  /* negative value of footer height */
+  height: 111px;
+  clear: both;
+  background-color: #e1efef;
+}
+/* line 50, ../sass/app.css.scss */
+#footer p {
+  font-size: .8em;
+  color: #87a09f;
+  text-align: center;
+  line-height: 1.6em;
+}
+/* line 55, ../sass/app.css.scss */
+#footer p:first-of-type {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #6c8887;
+}
+/* line 60, ../sass/app.css.scss */
+#footer p a {
+  color: #29abb9;
+}
+
+/* line 67, ../sass/app.css.scss */
+.header h1 {
+  font-family: 'Helvetica',sans-serif;
+  /* fallback color */
+  color: #87a09f;
+  font-size: 5em;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0px 0;
+  text-transform: lowercase;
+  color: #fff;
+}
+
+/*.header h1.galaxy {
+    -webkit-text-fill-color: transparent;
+    background: black url('http://thumbs.dreamstime.com/x/us-dollars-7272701.jpg') repeat top center;
+    -webkit-background-clip: text;
+}
+*/
+.one {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #6754ac;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.one:hover {
+  background-color: #7562BB;
+}
+
+
+/* line 92, ../sass/app.css.scss */
+.buttons {
+  margin: 10px 0;
+  padding: 1px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border-radius: 12px;
+  display: inline-block;
+  width: 98%;
+}
+/* line 99, ../sass/app.css.scss */
+.buttons:after {
+  clear: both;
+}
+/* line 102, ../sass/app.css.scss */
+.buttons button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 50%;
+  float: left;
+  margin: 0;
+  background-color: #6754ac;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.buttons button:hover {
+  background-color: #7562BB;
+}
+/* line 104, ../sass/app.css.scss */
+.buttons button:first-child {
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 20px;
+  padding-right: 30px;
+  text-align: right;
+}
+/* line 109, ../sass/app.css.scss */
+.buttons button:first-child .icon-left {
+  float: left;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+/* line 116, ../sass/app.css.scss */
+.buttons button:last-child {
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-right: 20px;
+  padding-left: 30px;
+  text-align: left;
+  border-left: 1px solid white!important;
+}
+/* line 121, ../sass/app.css.scss */
+.buttons button:last-child .icon-right {
+  float: right;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+/* line 143, ../sass/app.css.scss */
+/*.buttons button:hover {
+  color: #6c8887;
+  cursor: pointer;
+}*/
+/* line 147, ../sass/app.css.scss */
+/*.buttons button:active {
+  padding-top: 16px;
+  padding-bottom: 14px;
+  cursor: pointer;
+  border-top: 1px solid #bfdddc;
+  color: #6c8887;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(4%, #e8f3f3), color-stop(100%, #e8f3f3));
+  background-image: -webkit-linear-gradient(#e8f3f3 4%, #e8f3f3);
+  background-image: -moz-linear-gradient(#e8f3f3 4%, #e8f3f3);
+  background-image: -o-linear-gradient(#e8f3f3 4%, #e8f3f3);
+  background-image: linear-gradient(#e8f3f3 4%, #e8f3f3);
+}
+*/
+.buttons button:disabled {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* line 163, ../sass/app.css.scss */
+#copy {
+  padding: 20px;
+  margin: 40px 0 80px;
+  cursor: crosshair;
+  background: transparent;
+  border: none;
+  color: #505456;
+  font-size: 1.2em;
+  line-height: 1.8em;
+  background-color: #fff;
+  min-height: 300px;
+  border-radius: 10px;
+  border: 1px solid #6754ac;
+}
