@@ -94,6 +94,13 @@ body:before {
   font-size: 1.2em;
 }
 
+.white a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 2px;
+}
+
 .one {
   display: block;
   width: 50%;
